@@ -1,9 +1,11 @@
+
 # ETL Pipeline
 
 A full-stack ETL (Extract, Transform, Load) pipeline for processing
 customer CSV data, cleaning and transforming it with Python/Pandas,
 checking existing records in MySQL, and loading new records into the
 database.
+<img width="1847" height="845" alt="Screenshot From 2026-09-26 18-32-52" src="https://github.com/user-attachments/assets/3ee6a1d2-e6c6-49e1-a145-c73aa6bb26b9" />
 
 ## Table of Contents
 
@@ -25,6 +27,7 @@ database.
 -   [Example Response](#example-response)
 -   [Troubleshooting](#troubleshooting)
 -   [Security](#security)
+
 
 ## What is ETL?
 
