@@ -19,8 +19,6 @@ database.
 -   [Environment Variables](#environment-variables)
 -   [Running the Backend](#running-the-backend)
 -   [API Endpoint](#api-endpoint)
--   [ETL Process](#etl-process)
--   [Data Transformation](#data-transformation)
 -   [Incremental Loading](#incremental-loading)
 -   [Frontend Setup](#frontend-setup)
 -   [Example Workflow](#example-workflow)
