@@ -1,0 +1,136 @@
+customer_id,name,email,phone,city,state,age,signup_date,status,notes
+101,AMIT SHARMA,amit.sharma@gmail.com,9876543210.0,Bhopal,Madhya Pradesh,25.0,2026-01-15,active,
+102,Priya Verma,priya.verma@gmail.com,9876543211.0,Pune,Maharashtra,28.0,not-a-date,active,remove
+103,Rahul Singh,rahul.singh@yahoo.com,9876543212.0,Indore,,31.0,2026-02-02,inactive,unknown
+104,Neha Gupta,neha.gupta@gmail.com,,Delhi,Delhi,26.0,2026-02-10,active,test
+105,Amit Sharma,amit.sharma@gmail.com,9876543210.0,UNKNOWN,Madhya Pradesh,25.0,2026-01-15,UNKNOWN,
+106,Vikas Patel,invalid-email,9876543215.0,Mumbai,Maharashtra,35.0,2026-02-21,active,remove
+107,Sneha Joshi,sneha.joshi@gmail.com,9876543216.0,Nagpur,Maharashtra,999.0,2026-03-01,active,ok
+108,ROHIT KUMAR,rohit.kumar@gmail.com,9876543217.0,Bangalore,,27.0,not-a-date,inactive,random junk !!!
+109,Pooja Mehta,pooja.mehta@gmail.com,9876543218.0,Pune,Maharashtra,30.0,2026-03-09,active,
+110,Karan Malhotra,karan.malhotra@gmail.com,,Hyderabad,Telangana,abc,2026-03-12,UNKNOWN,test
+111,Priya Verma,priya.verma@gmail.com,9876543211.0,Pune,Maharashtra,28.0,2026-01-18,active,remove
+112,Anjali Rao,anjali.rao@gmail.com,9876543221.0,UNKNOWN,Tamil Nadu,24.0,2026-03-18,active,ok
+113,Suresh Yadav,suresh.yadav@gmail.com,9876543222.0,Bhopal,,40.0,2026-03-20,inactive,unknown
+114,Meena Das,invalid-email,9876543223.0,Kolkata,West Bengal,999.0,not-a-date,active,random junk !!!
+115,ROHIT KUMAR,rohit.kumar@gmail.com,9876543217.0,Bangalore,Karnataka,27.0,2026-03-05,UNKNOWN,unknown
+116,Temp User,not-an-email,,Unknown,Unknown,abc,invalid-date,?,DELETE
+117,John Doe,,9876543225.0,Mumbai,Maharashtra,29.0,,active,missing email
+118,Test User,test@test.com,,,,0.0,2026-04-01,test,DELETE
+119,Pooja Mehta,pooja.mehta@gmail.com,9876543218.0,UNKNOWN,Maharashtra,30.0,2026-03-09,active,
+120,Unknown,unknown,0.0,,,-1.0,not-a-date,UNKNOWN,random junk !!!
+101,AMIT SHARMA,amit.sharma@gmail.com,9876543210.0,Bhopal,Madhya Pradesh,25.0,2026-01-15,active,
+102,Priya Verma,priya.verma@gmail.com,9876543211.0,Pune,Maharashtra,28.0,not-a-date,active,remove
+103,Rahul Singh,rahul.singh@yahoo.com,9876543212.0,Indore,,31.0,2026-02-02,inactive,unknown
+104,Neha Gupta,neha.gupta@gmail.com,,Delhi,Delhi,26.0,2026-02-10,active,test
+105,Amit Sharma,amit.sharma@gmail.com,9876543210.0,UNKNOWN,Madhya Pradesh,25.0,2026-01-15,UNKNOWN,
+106,Vikas Patel,invalid-email,9876543215.0,Mumbai,Maharashtra,35.0,2026-02-21,active,remove
+107,Sneha Joshi,sneha.joshi@gmail.com,9876543216.0,Nagpur,Maharashtra,999.0,2026-03-01,active,ok
+108,ROHIT KUMAR,rohit.kumar@gmail.com,9876543217.0,Bangalore,,27.0,not-a-date,inactive,random junk !!!
+109,Pooja Mehta,pooja.mehta@gmail.com,9876543218.0,Pune,Maharashtra,30.0,2026-03-09,active,
+110,Karan Malhotra,karan.malhotra@gmail.com,,Hyderabad,Telangana,abc,2026-03-12,UNKNOWN,test
+999999,UNKNOWN,missing,,,,999,,,junk
+999999,UNKNOWN,missing,,,,999,,,junk
+999999,UNKNOWN,missing,,,,999,,,junk
+999999,UNKNOWN,missing,,,,999,,,junk
+999999,UNKNOWN,missing,,,,999,,,junk
+BAD-0,Test User,invalid,,Unknown,,,,UNKNOWN,junk
+,Unknown,unknown,12345,N/A,N/A,-10,,N/A,N/A
+,John Doe,test@,abcxyz,Test,UNKNOWN,0,not-a-date,INVALID,test
+,Jane Doe,abc,abcxyz,123,,999,2026/99/99,,random
+,N/A,,,,N/A,abc,yesterday,test,
+BAD-5,NULL,missing,12345,   ,UNKNOWN,250,N/A,pending,???
+,ABC,not-an-email,abcxyz,Delhi,,,,active,temporary
+,XYZ,null@,abcxyz,Bhopal,N/A,-10,,UNKNOWN,delete me
+,Random,invalid,,Mumbai,UNKNOWN,0,not-a-date,N/A,junk
+,,unknown,12345,Unknown,,999,2026/99/99,INVALID,N/A
+BAD-10,   ,test@,abcxyz,N/A,N/A,abc,yesterday,,test
+,Fake User,abc,abcxyz,Test,UNKNOWN,250,N/A,test,random
+,Test User,,,123,,,,pending,
+,Unknown,missing,12345,,N/A,-10,,active,???
+,John Doe,not-an-email,abcxyz,   ,UNKNOWN,0,not-a-date,UNKNOWN,temporary
+BAD-15,Jane Doe,null@,abcxyz,Delhi,,999,2026/99/99,N/A,delete me
+,N/A,invalid,,Bhopal,N/A,abc,yesterday,INVALID,junk
+,NULL,unknown,12345,Mumbai,UNKNOWN,250,N/A,,N/A
+,ABC,test@,abcxyz,Unknown,,,,test,test
+,XYZ,abc,abcxyz,N/A,N/A,-10,,pending,random
+BAD-20,Random,,,Test,UNKNOWN,0,not-a-date,active,
+,,missing,12345,123,,999,2026/99/99,UNKNOWN,???
+,   ,not-an-email,abcxyz,,N/A,abc,yesterday,N/A,temporary
+,Fake User,null@,abcxyz,   ,UNKNOWN,250,N/A,INVALID,delete me
+,Test User,invalid,,Delhi,,,,,junk
+BAD-25,Unknown,unknown,12345,Bhopal,N/A,-10,,test,N/A
+,John Doe,test@,abcxyz,Mumbai,UNKNOWN,0,not-a-date,pending,test
+,Jane Doe,abc,abcxyz,Unknown,,999,2026/99/99,active,random
+,N/A,,,N/A,N/A,abc,yesterday,UNKNOWN,
+,NULL,missing,12345,Test,UNKNOWN,250,N/A,N/A,???
+BAD-30,ABC,not-an-email,abcxyz,123,,,,INVALID,temporary
+,XYZ,null@,abcxyz,,N/A,-10,,,delete me
+,Random,invalid,,   ,UNKNOWN,0,not-a-date,test,junk
+,,unknown,12345,Delhi,,999,2026/99/99,pending,N/A
+,   ,test@,abcxyz,Bhopal,N/A,abc,yesterday,active,test
+BAD-35,Fake User,abc,abcxyz,Mumbai,UNKNOWN,250,N/A,UNKNOWN,random
+,Test User,,,Unknown,,,,N/A,
+,Unknown,missing,12345,N/A,N/A,-10,,INVALID,???
+,John Doe,not-an-email,abcxyz,Test,UNKNOWN,0,not-a-date,,temporary
+,Jane Doe,null@,abcxyz,123,,999,2026/99/99,test,delete me
+BAD-40,N/A,invalid,,,N/A,abc,yesterday,pending,junk
+,NULL,unknown,12345,   ,UNKNOWN,250,N/A,active,N/A
+,ABC,test@,abcxyz,Delhi,,,,UNKNOWN,test
+,XYZ,abc,abcxyz,Bhopal,N/A,-10,,N/A,random
+,Random,,,Mumbai,UNKNOWN,0,not-a-date,INVALID,
+BAD-45,,missing,12345,Unknown,,999,2026/99/99,,???
+,   ,not-an-email,abcxyz,N/A,N/A,abc,yesterday,test,temporary
+,Fake User,null@,abcxyz,Test,UNKNOWN,250,N/A,pending,delete me
+,Test User,invalid,,123,,,,active,junk
+,Unknown,unknown,12345,,N/A,-10,,UNKNOWN,N/A
+BAD-50,John Doe,test@,abcxyz,   ,UNKNOWN,0,not-a-date,N/A,test
+,Jane Doe,abc,abcxyz,Delhi,,999,2026/99/99,INVALID,random
+,N/A,,,Bhopal,N/A,abc,yesterday,,
+,NULL,missing,12345,Mumbai,UNKNOWN,250,N/A,test,???
+,ABC,not-an-email,abcxyz,Unknown,,,,pending,temporary
+BAD-55,XYZ,null@,abcxyz,N/A,N/A,-10,,active,delete me
+,Random,invalid,,Test,UNKNOWN,0,not-a-date,UNKNOWN,junk
+,,unknown,12345,123,,999,2026/99/99,N/A,N/A
+,   ,test@,abcxyz,,N/A,abc,yesterday,INVALID,test
+,Fake User,abc,abcxyz,   ,UNKNOWN,250,N/A,,random
+BAD-60,Test User,,,Delhi,,,,test,
+,Unknown,missing,12345,Bhopal,N/A,-10,,pending,???
+,John Doe,not-an-email,abcxyz,Mumbai,UNKNOWN,0,not-a-date,active,temporary
+,Jane Doe,null@,abcxyz,Unknown,,999,2026/99/99,UNKNOWN,delete me
+,N/A,invalid,,N/A,N/A,abc,yesterday,N/A,junk
+BAD-65,NULL,unknown,12345,Test,UNKNOWN,250,N/A,INVALID,N/A
+,ABC,test@,abcxyz,123,,,,,test
+,XYZ,abc,abcxyz,,N/A,-10,,test,random
+,Random,,,   ,UNKNOWN,0,not-a-date,pending,
+,,missing,12345,Delhi,,999,2026/99/99,active,???
+BAD-0,Test User,invalid,,Unknown,,,,UNKNOWN,junk
+,Unknown,unknown,12345,N/A,N/A,-10,,N/A,N/A
+,John Doe,test@,abcxyz,Test,UNKNOWN,0,not-a-date,INVALID,test
+,Jane Doe,abc,abcxyz,123,,999,2026/99/99,,random
+,N/A,,,,N/A,abc,yesterday,test,
+BAD-5,NULL,missing,12345,   ,UNKNOWN,250,N/A,pending,???
+,ABC,not-an-email,abcxyz,Delhi,,,,active,temporary
+,XYZ,null@,abcxyz,Bhopal,N/A,-10,,UNKNOWN,delete me
+,Random,invalid,,Mumbai,UNKNOWN,0,not-a-date,N/A,junk
+,,unknown,12345,Unknown,,999,2026/99/99,INVALID,N/A
+BAD-10,   ,test@,abcxyz,N/A,N/A,abc,yesterday,,test
+,Fake User,abc,abcxyz,Test,UNKNOWN,250,N/A,test,random
+,Test User,,,123,,,,pending,
+,Unknown,missing,12345,,N/A,-10,,active,???
+,John Doe,not-an-email,abcxyz,   ,UNKNOWN,0,not-a-date,UNKNOWN,temporary
+BAD-15,Jane Doe,null@,abcxyz,Delhi,,999,2026/99/99,N/A,delete me
+,N/A,invalid,,Bhopal,N/A,abc,yesterday,INVALID,junk
+,NULL,unknown,12345,Mumbai,UNKNOWN,250,N/A,,N/A
+,ABC,test@,abcxyz,Unknown,,,,test,test
+,XYZ,abc,abcxyz,N/A,N/A,-10,,pending,random
+BAD-20,Random,,,Test,UNKNOWN,0,not-a-date,active,
+,,missing,12345,123,,999,2026/99/99,UNKNOWN,???
+,   ,not-an-email,abcxyz,,N/A,abc,yesterday,N/A,temporary
+,Fake User,null@,abcxyz,   ,UNKNOWN,250,N/A,INVALID,delete me
+,Test User,invalid,,Delhi,,,,,junk
+BAD-25,Unknown,unknown,12345,Bhopal,N/A,-10,,test,N/A
+,John Doe,test@,abcxyz,Mumbai,UNKNOWN,0,not-a-date,pending,test
+,Jane Doe,abc,abcxyz,Unknown,,999,2026/99/99,active,random
+,N/A,,,N/A,N/A,abc,yesterday,UNKNOWN,
+,NULL,missing,12345,Test,UNKNOWN,250,N/A,N/A,???

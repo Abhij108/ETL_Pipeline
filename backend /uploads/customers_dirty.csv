@@ -1,0 +1,21 @@
+customer_id,name,email,phone,city,state,age,signup_date,status,notes
+101,Amit Sharma,amit.sharma@gmail.com,9876543210,Bhopal,Madhya Pradesh,25,2026-01-15,active,N/A
+102,Priya Verma,priya.verma@gmail.com,9876543211,Pune,Maharashtra,28,2026-01-18,active,remove
+103,Rahul Singh,rahul.singh@yahoo.com,9876543212,Indore,Madhya Pradesh,31,2026-02-02,inactive,unknown
+104,Neha Gupta,neha.gupta@gmail.com,9876543213,Delhi,Delhi,26,2026-02-10,active,test
+105,Amit Sharma,amit.sharma@gmail.com,9876543210,Bhopal,Madhya Pradesh,25,2026-01-15,active,N/A
+106,Vikas Patel,vikas.patel@gmail.com,9876543215,Mumbai,Maharashtra,35,2026-02-21,active,remove
+107,Sneha Joshi,sneha.joshi@gmail.com,9876543216,Nagpur,Maharashtra,29,2026-03-01,active,ok
+108,Rohit Kumar,rohit.kumar@gmail.com,9876543217,Bangalore,Karnataka,27,2026-03-05,inactive,unknown
+109,Pooja Mehta,pooja.mehta@gmail.com,9876543218,Pune,Maharashtra,30,2026-03-09,active,N/A
+110,Karan Malhotra,karan.malhotra@gmail.com,9876543219,Hyderabad,Telangana,33,2026-03-12,active,test
+111,Priya Verma,priya.verma@gmail.com,9876543211,Pune,Maharashtra,28,2026-01-18,active,remove
+112,Anjali Rao,anjali.rao@gmail.com,9876543221,Chennai,Tamil Nadu,24,2026-03-18,active,ok
+113,Suresh Yadav,suresh.yadav@gmail.com,9876543222,Bhopal,Madhya Pradesh,40,2026-03-20,inactive,unknown
+114,Meena Das,meena.das@gmail.com,9876543223,Kolkata,West Bengal,32,2026-03-25,active,N/A
+115,Rohit Kumar,rohit.kumar@gmail.com,9876543217,Bangalore,Karnataka,27,2026-03-05,inactive,unknown
+116,Temp User,not-an-email,123,Unknown,Unknown,,invalid-date,?,DELETE
+117,John Doe,,9876543225,Mumbai,Maharashtra,29,,active,missing email
+118,Test User,test@test.com,,,,0,2026-04-01,test,DELETE
+119,Pooja Mehta,pooja.mehta@gmail.com,9876543218,Pune,Maharashtra,30,2026-03-09,active,N/A
+120,Unknown,unknown,0000000000,N/A,N/A,-1,1900-01-01,unknown,junk

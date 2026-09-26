@@ -1,0 +1,10 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+button,
+input {
+  font-family: inherit;
+}
